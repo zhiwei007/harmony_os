@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_ABCAbility",
+      "value": "entry_ABCAbility"
+    },
+    {
+      "name": "abcability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "abcability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_YXYCAbility",
+      "value": "entry_YXYCAbility"
+    },
+    {
+      "name": "yxycability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "yxycability_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

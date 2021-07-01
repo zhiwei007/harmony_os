@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+
+
+    <Checkbox
+        ohos:id="$+id:abc_slice"
+        ohos:height="50vp"
+        ohos:width="match_content"
+        ohos:text="农行蓝牙Key"
+        ohos:text_size="30fp"/>
+
+    <Checkbox
+        ohos:id="$+id:ycyx_slice"
+        ohos:height="50vp"
+        ohos:width="match_content"
+        ohos:text="标准版蓝牙Key"
+        ohos:text_size="30fp"/>
+
+    <Button
+        ohos:id="$+id:ble_central"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:background_element="#33A1C9"
+        ohos:layout_alignment="center"
+        ohos:margin="20vp"
+        ohos:text="中心设备操作界面"
+        ohos:text_size="18fp"/>
+
+    <Button
+        ohos:id="$+id:ble_peripheral"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:background_element="#33A1C9"
+        ohos:layout_alignment="center"
+        ohos:margin="20vp"
+        ohos:text="外围设备操作界面"
+        ohos:visibility="hide"
+        ohos:text_size="18fp"/>
+</DirectionalLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#F0FFFF"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:device_info"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:margin="8vp"
+            ohos:text="设备：暂无设备"
+            ohos:text_alignment="left"
+            ohos:text_size="18fp"
+            ohos:weight="3"/>
+
+        <Button
+            ohos:id="$+id:scan"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:background_element="#33A1C9"
+            ohos:margin="5vp"
+            ohos:text="开始扫描"
+            ohos:text_alignment="center"
+            ohos:text_size="18fp"
+            ohos:weight="1"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:status"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:margin="8vp"
+            ohos:text="状态：未连接"
+            ohos:text_alignment="left"
+            ohos:text_size="18fp"
+            ohos:weight="3"/>
+
+        <Button
+            ohos:id="$+id:connect"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:background_element="#33A1C9"
+            ohos:margin="5vp"
+            ohos:text="连接设备"
+            ohos:text_alignment="center"
+            ohos:text_size="18fp"
+            ohos:weight="1"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <TextField
+            ohos:id="$+id:input"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:textfield_element"
+            ohos:hint="请输入"
+            ohos:text="611B000000000000000080100000000000000000000000000000000081060000000000006D"
+            ohos:top_margin="30vp"
+            ohos:left_margin="10vp"
+            ohos:right_margin="10vp"
+            ohos:text_alignment="vertical_center|left"
+            ohos:text_size="18fp"
+            ohos:weight="3"/>
+
+        <Button
+            ohos:id="$+id:send"
+            ohos:height="100vp"
+            ohos:width="match_parent"
+            ohos:background_element="#33A1C9"
+            ohos:margin="25vp"
+            ohos:text="发送数据"
+            ohos:text_alignment="center"
+            ohos:text_size="18fp"
+            ohos:weight="1"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="400vp"
+        ohos:width="match_parent"
+        ohos:background_element="#FFFFCD"
+        ohos:margin="10vp"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:text="外围设备："
+            ohos:text_size="18fp"/>
+
+        <TextField
+            ohos:id="$+id:data"
+            ohos:height="320vp"
+            ohos:enabled="false"
+            ohos:width="match_parent"
+            ohos:text_alignment="top|left"
+            ohos:text_size="18fp"/>
+    </DirectionalLayout>
+</DirectionalLayout>
+

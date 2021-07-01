@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "鸿蒙BLE开发"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "abcability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "abcability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ABCAbility",
+      "value": "农行蓝牙Key"
+    },
+    {
+      "name": "yxycability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "yxycability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_YXYCAbility",
+      "value": "标准版蓝牙Key"
+    }
+  ]
+}
